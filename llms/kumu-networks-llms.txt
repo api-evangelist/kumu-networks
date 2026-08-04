@@ -1,0 +1,29 @@
+# Kumu Networks
+
+> Kumu Networks, Inc. is a Sunnyvale, California semiconductor and RF technology company founded in 2011 to commercialize Stanford University research into full-duplex wireless and self-interference cancellation (SIC). It sells RF integrated circuits, cancellers (including the K8 canceller prototype) and self-interference-cancelling smart repeaters to wireless infrastructure, satellite, defense and aerospace manufacturers. Kumu Networks is a hardware/IP company, not an API platform: it publishes no developer portal, no API documentation, and no machine-readable API contract.
+
+## Status
+
+- No public API. As of 2026-08-04 no OpenAPI, Swagger, GraphQL, AsyncAPI, MCP server or A2A agent card could be found on any Kumu Networks host.
+- The company web presence at https://kumunetworks.com/ returns HTTP 404 for every path from its WP Engine origin, and presents a wildcard `*.wpengine.com` certificate that does not match the host. The last successful Internet Archive capture of the homepage is 2024-08-10.
+- Mail (Google Workspace MX) and an SPF record are still published for the domain; there is no DMARC record, no CAA record and no DNSSEC.
+
+## Company
+
+- [Kumu Networks on LinkedIn](https://www.linkedin.com/company/kumu-networks): company page and updates.
+- [Forge Global private-market listing](https://forgeglobal.com/kumu-networks_stock/): secondary-market profile — the source this company entered the API Evangelist catalog from.
+
+## Technology
+
+- Self-interference cancellation (SIC / SLIC) allowing simultaneous transmit and receive on the same or an adjacent channel, roughly 200 MHz to 60 GHz.
+- Applications: 4G/5G/6G network infrastructure, smart repeaters, Wi-Fi, IoT, satellite communications, and defense programs including US Army demonstrations and Department of Defense dynamic spectrum-sharing work.
+
+## Artifacts in this profile
+
+- [Domain security posture](security/kumu-networks-domain-security.yml): probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC.
+- [Well-known probe results](well-known/kumu-networks-well-known.yml): every `/.well-known/` and spec path probed, with observed HTTP status.
+
+---
+generated: '2026-08-04'
+method: generated
+source: apis.yml + repo artifacts (no provider-published /llms.txt exists; https://kumunetworks.com/llms.txt returned 404)

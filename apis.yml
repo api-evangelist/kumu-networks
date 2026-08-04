@@ -1,7 +1,22 @@
 aid: kumu-networks
 name: Kumu Networks
-description: 'Kumu Networks is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Kumu Networks, Inc. is a Sunnyvale, California semiconductor and RF technology company
+  founded in 2011 to commercialize Stanford University research into full-duplex wireless
+  and self-interference cancellation (SIC). Its silicon and module products — RF integrated
+  circuits, cancellers such as the K8 canceller prototype, and self-interference-cancelling
+  smart repeaters — let a radio transmit and receive on the same or an adjacent channel at
+  the same time, across roughly 200 MHz to 60 GHz, targeting 4G/5G/6G infrastructure, Wi-Fi,
+  IoT, satellite, and defense and aerospace programs including US Army demonstrations and
+  Department of Defense dynamic spectrum-sharing work. The company raised roughly $45M from
+  investors including Khosla Ventures, New Enterprise Associates, Cisco Investments,
+  Deutsche Telekom, Verizon Ventures, Swisscom, Singtel Innov8 and Third Point, and its
+  shares trade on secondary marketplaces. Kumu Networks licenses hardware IP and sells
+  modules to wireless equipment manufacturers rather than operating a public developer
+  platform: as of August 2026 it publishes no developer portal, API documentation,
+  OpenAPI/AsyncAPI specification, SDKs, CLI or public code repositories, and its own website
+  at kumunetworks.com returns HTTP 404 from its WP Engine host (last successful Internet
+  Archive capture 2024-08-10).
 url: https://raw.githubusercontent.com/api-evangelist/kumu-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +27,16 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Semiconductors
+- Wireless
+- RF
+- Spectrum
+- Full Duplex
+- 5G
+- Telecommunications
+- Defense
+- IoT
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +44,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kumu-networks-domain-security.yml
 - type: Website
+  url: https://kumunetworks.com/
+  name: Kumu Networks (company domain — currently offline)
+  x-http-status: 404
+  x-probed: '2026-08-04'
+  x-note: >-
+    The company domain resolves and serves TLS, but the origin (WP Engine) returns HTTP 404
+    for every path and the certificate presented is a wildcard *.wpengine.com that does not
+    match the host. Recorded as observed, not as a working web presence.
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kumu-networks
+  name: Kumu Networks on LinkedIn
+- type: SecondaryMarket
   url: https://forgeglobal.com/kumu-networks_stock/
+  name: Forge Global private-market listing
+- type: LLMsTxt
+  url: llms/kumu-networks-llms.txt
+  name: llms.txt (generated from this profile)
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

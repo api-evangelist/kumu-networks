@@ -1,0 +1,41 @@
+generated: '2026-08-04'
+method: probed
+source: https://kumunetworks.com/
+host: https://kumunetworks.com
+note: >-
+  Every probed path returned HTTP 404 from the origin (nginx on WP Engine), and the origin
+  serves a wildcard *.wpengine.com certificate that does not match kumunetworks.com, so TLS
+  verification fails for every request. No discovery document is published. Recorded as a
+  negative result — no WellKnown/SecurityTxt/AgentCard pointer is wired in apis.yml because
+  none of these documents exist.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
+- path: /sitemap.xml
+  status: 404
+x-evidence:
+  fetched: '2026-08-04'
+  tls_note: certificate presented is CN=*.wpengine.com (hostname mismatch)
+  origin_server: nginx
+  body_bytes: 5890
+  content_type: text/html
