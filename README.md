@@ -64,5 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kumu Networks is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/kumu-networks_stock/
+Kumu Networks, Inc. is a Sunnyvale, California semiconductor and RF technology company founded in 2011 to commercialize Stanford University research into full-duplex wireless and self-interference cancellation (SIC). Its silicon and module products — RF integrated circuits, cancellers such as the K8 canceller prototype, and self-interference-cancelling smart repeaters — let a radio transmit and receive on the same or an adjacent channel at the same time, across roughly 200 MHz to 60 GHz, targeting 4G/5G/6G infrastructure, Wi-Fi, IoT, satellite, and defense and aerospace programs including US Army demonstrations and Department of Defense dynamic spectrum-sharing work. The company raised roughly $45M from investors including Khosla Ventures, New Enterprise Associates, Cisco Investments, Deutsche Telekom, Verizon Ventures, Swisscom, Singtel Innov8 and Third Point, and its shares trade on secondary marketplaces. Kumu Networks licenses hardware IP and sells modules to wireless equipment manufacturers rather than operating a public developer platform: as of August 2026 it publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, CLI or public code repositories, and its own website at kumunetworks.com returns HTTP 404 from its WP Engine host (last successful Internet Archive capture 2024-08-10).
+
+**Areas:** Company · Semiconductors · Wireless · RF · Spectrum · Full Duplex · 5G · Telecommunications · Defense · IoT · Hardware
+
+## Kumu Networks on APIs.io
+
+Everything profiled for Kumu Networks is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kumu-networks/](https://apis.io/providers/kumu-networks/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kumu Networks Domain Security](https://apis.io/security/kumu-networks/kumu-networks-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kumunetworks.com/)
+
+## API Evangelist rating
+
+**Kin Score 2.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.8 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kumu-networks/](https://apis.io/providers/kumu-networks/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kumu Networks: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kumu-networks/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
